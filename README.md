@@ -48,7 +48,7 @@ https://github.com/sigma7i/zigbee-wiki/wiki/zigbee-firmware-install (RU)
 
 ---
 
-![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Efekta-eFlower-Pro/blob/main/IMAGES/IMG_1.png) 
+![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/IMG_2.png) 
 
 ### How to join:
 #### If device in FN(factory new) state:
