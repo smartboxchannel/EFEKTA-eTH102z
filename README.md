@@ -17,9 +17,9 @@ More info at http://efektalab.com/eTHz
 
 ---
 
-![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/e-Flower/blob/main/IMAGES/01.png) 
+![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/001.jpg) 
 
-![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/e-Flower/blob/main/IMAGES/02.png) 
+![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/002.jpg) 
 
 
 ---
