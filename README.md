@@ -1,13 +1,14 @@
 # Mini Digital Thermometer & Hygrometer Zigbee
 
-e-Paper display 1.02. Powered by SoC CC2530, the sensor is based on a capacitive measurement method. The sensor is powered by a CR2477 battery.
+DIY беспроводной датчик, работающий на базе SoC CC2530 (Зигби), питание от батареи CR2477, е-пэпер дисплей 1.02. Работает в Home Assistance (z2m, zha)
+DIY wireless sensor powered by SoC CC2530 (Zigby), powered by CR2477 battery, e-peper display 1.02. Works in Home Assistance (Z2M, ZHA)
 
 
 #### Donate to me: https://paypal.me/efektalab or just buy to support this project
 
 #### Sale: hello@efektalab.com
 
-#### Video: 
+#### Video: https://youtu.be/Fae1yz_HcuA
 
 #### Telegram DiyDev - https://t.me/diy_devices
 
