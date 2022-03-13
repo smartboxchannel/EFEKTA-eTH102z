@@ -5,11 +5,9 @@ e-Paper display 1.02. Powered by SoC CC2530, the sensor is based on a capacitive
 
 #### Donate to me: https://paypal.me/efektalab or just buy to support this project
 
-#### Sale: 
+#### Sale: hello@efektalab.com
 
 #### Video: 
-
-#### Telegram ZigDev - https://t.me/zigdev
 
 #### Telegram DiyDev - https://t.me/diy_devices
 
