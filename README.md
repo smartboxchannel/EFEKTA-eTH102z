@@ -6,7 +6,7 @@ DIY wireless sensor powered by SoC CC2530 (Zigby), powered by CR2477 battery, e-
 
 #### Donate to me: https://paypal.me/efektalab or just buy to support this project
 
-#### Sale: hello@efektalab.com
+#### Sale: hello@efektalab.com  |  https://t.me/zigberu
 
 #### Video: https://youtu.be/Fae1yz_HcuA
 
