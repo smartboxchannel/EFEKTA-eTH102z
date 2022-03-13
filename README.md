@@ -13,6 +13,8 @@ e-Paper display 1.02. Powered by SoC CC2530, the sensor is based on a capacitive
 
 More info at http://efektalab.com/eTHz
 
+https://www.zigbee2mqtt.io/devices/EFEKTA_eTH102.html
+
 ---
 
 ![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/001.jpg) 
