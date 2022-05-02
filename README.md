@@ -86,6 +86,15 @@ https://github.com/sigma7i/zigbee-wiki/wiki/zigbee-firmware-install (RU)
 4. Press the reset button on the device (the join procedure will begin, еhe device starts flashing the LED repeatedly)
 5. Wait, in case of successfull join, device will flash led 5 times, if join failed, device will flash led 2 times
 
+
+![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/009.jpg) 
+
+![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/010.jpg) 
+
+![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/011.jpg) 
+
+
+
 ### Troubleshooting
 
 If a device does not connect to your coordinator, please try the following:
