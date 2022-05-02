@@ -1,8 +1,8 @@
 # Mini Digital Thermometer & Hygrometer Zigbee
 
-DIY беспроводной датчик, работающий на базе SoC CC2530 (Зигби), питание от батареи CR2477, е-пэпер дисплей 1.02. Работает в Home Assistance (z2m, zha)
+DIY беспроводной датчик, работающий на базе SoC CC2530 (Зигби), питание от батареи CR2477, е-пэпер дисплей 1.02. Работает в Home Assistance (z2m, zha). Поддерживает биндинг, конфигурирование через exposes.
 
-DIY wireless sensor powered by SoC CC2530 (Zigbee), powered by CR2477 battery, e-peper display 1.02. Works in Home Assistance (Z2M, ZHA)
+DIY wireless sensor powered by SoC CC2530 (Zigbee), powered by CR2477 battery, e-peper display 1.02. Works in Home Assistance (Z2M, ZHA). Supports binding, configuration via exposes.
 
 ### !!! It is forbidden to manufacture devices for commercial sale, only for personal use !!!
 
