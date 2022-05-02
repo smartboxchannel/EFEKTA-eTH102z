@@ -85,6 +85,8 @@ https://github.com/sigma7i/zigbee-wiki/wiki/zigbee-firmware-install (RU)
 5. Wait, in case of successfull join, device will flash led 5 times, if join failed, device will flash led 2 times
 
 
+### How to join:
+
 ![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/009.jpg) 
 
 ![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/010.jpg) 
