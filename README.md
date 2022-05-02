@@ -9,9 +9,7 @@ DIY wireless sensor powered by SoC CC2530 (Zigbee), powered by CR2477 battery, e
 ## You can make your own pcb here - https://www.pcbway.com/setinvite.aspx?inviteid=550959
 
 
-#### Donate to me: https://paypal.me/efektalab or just buy to support this project
-
-#### Sale: hello@efektalab.com  |  https://t.me/zigberu
+#### Sale: hello@efektalab.com 
 
 #### Video: https://youtu.be/Fae1yz_HcuA
 
