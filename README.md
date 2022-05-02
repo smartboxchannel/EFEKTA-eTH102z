@@ -3,6 +3,8 @@
 DIY беспроводной датчик, работающий на базе SoC CC2530 (Зигби), питание от батареи CR2477, е-пэпер дисплей 1.02. Работает в Home Assistance (z2m, zha)
 DIY wireless sensor powered by SoC CC2530 (Zigbee), powered by CR2477 battery, e-peper display 1.02. Works in Home Assistance (Z2M, ZHA)
 
+### !!! It is forbidden to manufacture devices for commercial sale, only for personal use !!!
+
 ## You can make your own pcb here - https://www.pcbway.com/setinvite.aspx?inviteid=550959
 
 
