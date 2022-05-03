@@ -21,6 +21,41 @@ https://www.zigbee2mqtt.io/devices/EFEKTA_eTH102.html
 
 ---
 
+GDEW0102T4 EINK1.02 - https://ali.ski/HVH2xo
+
+E18-MS1-PCB - https://ali.ski/XEbrW
+
+SHTC3 - https://ali.ski/YEH28
+
+SW-3×3_SMD - https://ali.ski/PvpRZ
+
+0.1uF - https://ali.ski/Q2HZF
+
+4.7uF - https://ali.ski/1YlVrx
+
+1uF - https://ali.ski/i2N5i
+
+2.2uF - https://ali.ski/CdRCr
+
+FPC0.5-30P - https://ali.ski/cRpHVn
+
+MBR0530 - https://ali.ski/FqwHJ
+
+10K - https://ali.ski/FwC4g
+
+220uF - https://ali.ski/Xfz9y9
+
+Holder CR2477 - https://ali.ski/b5mJH
+
+Screw 1.4 х 3 - https://ali.ski/JMrhzw
+
+Screw 1.4 х 4 - or 1.4 х 5	https://ali.ski/JMrhzw
+
+Carbon Filament PLA	 - https://ali.ski/tsDi4
+
+---
+
+
 ![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/0011.jpg) 
 
 ![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/005.jpg) 
