@@ -1,0 +1,377 @@
+{
+  "name": "Датчик EFEKTA eTH10z",
+  "manufacturer": "EfektaLab",
+  "model": "EFEKTA_eTH102z",
+  "manufacturerId": "EfektaLab",
+  "modelId": "EFEKTA_eTH102z",
+  "catalogId": -1,
+  "status": "Test",
+  "template": "/_Battery/BatteryPercentageRemaining.json",
+  "init": [
+    {
+      "zcl": [
+	    {
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+          "attribute": "0201_Custom",
+          "zclDataType": "UNSIGNED_16_BIT_INTEGER"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+          "attribute": "F004_Custom",
+          "zclDataType": "BOOLEAN"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+          "attribute": "0275_Custom",
+          "zclDataType": "BOOLEAN"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+          "attribute": "0205_Custom",
+          "zclDataType": "BOOLEAN"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0402_TemperatureMeasurement",
+          "attribute": "0220_Custom",
+          "zclDataType": "BOOLEAN"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0402_TemperatureMeasurement",
+          "attribute": "0221_Custom",
+          "zclDataType": "SIGNED_16_BIT_INTEGER"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0402_TemperatureMeasurement",
+          "attribute": "0222_Custom",
+          "zclDataType": "SIGNED_16_BIT_INTEGER"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0402_TemperatureMeasurement",
+          "attribute": "0225_Custom",
+          "zclDataType": "BOOLEAN"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0405_RelativeHumidityMeasurement",
+          "attribute": "0220_Custom",
+          "zclDataType": "BOOLEAN"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0405_RelativeHumidityMeasurement",
+          "attribute": "0221_Custom",
+          "zclDataType": "SIGNED_16_BIT_INTEGER"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0405_RelativeHumidityMeasurement",
+          "attribute": "0222_Custom",
+          "zclDataType": "SIGNED_16_BIT_INTEGER"
+        },
+		{
+          "endpoint": 1,
+          "cluster": "0405_RelativeHumidityMeasurement",
+          "attribute": "0225_Custom",
+          "zclDataType": "BOOLEAN"
+        }
+      ]
+    },
+    {
+        "link": {
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+		  "attribute": "0020_BatteryVoltage"
+        },
+        "bind": true,
+        "report": {
+          "min": 3600,
+          "max": 43200,
+          "change": 1
+        }
+    },
+	{
+        "link": {
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+          "attribute": "0021_BatteryPercentageRemaining"
+        },
+        "bind": true,
+        "report": {
+          "min": 3600,
+          "max": 43200,
+          "change": 1
+        }
+    },
+	{
+        "link": {
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+		  "attribute": "003E_BatteryAlarmState"
+        },
+        "bind": true,
+        "report": {
+          "min": 3600,
+          "max": 43200,
+          "change": 1
+        }
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "000A_Time",
+        "attribute": "0007_LocalTime"
+      },
+      "bind": false,
+	  "report": false
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0402_TemperatureMeasurement",
+        "attribute": "0000_MeasuredValue"
+      },
+      "bind": true,
+      "report": {
+        "min": 30,
+        "max": 3600,
+        "change": 25
+	  }
+    },
+    {
+      "link": {
+        "endpoint": 1,
+        "cluster": "0405_RelativeHumidityMeasurement",
+        "attribute": "0000_MeasuredValue"
+      },
+      "bind": true,
+      "report": {
+        "min": 30,
+        "max": 3600,
+        "change": 50
+	  }
+    }
+  ],
+  "services": [
+    {
+      "type": "TemperatureSensor",
+      "characteristics": [
+        {
+          "type": "CurrentTemperature",
+          "link": {
+            "endpoint": 1,
+            "cluster": "0402_TemperatureMeasurement",
+            "attribute": "0000_MeasuredValue"
+          }
+        }
+      ]
+    },
+    {
+      "type": "HumiditySensor",
+      "characteristics": [
+        {
+          "type": "CurrentRelativeHumidity",
+          "link": {
+            "endpoint": 1,
+            "cluster": "0405_RelativeHumidityMeasurement",
+            "attribute": "0000_MeasuredValue"
+          }
+        }
+      ]
+    }
+  ], 
+  "options": [
+	{
+        "link": {
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+          "attribute": "F004_Custom"
+        },
+        "name": "Инвертирование цвета e-paper дисплея",
+        "type": "Boolean",
+        "init": false,
+        "value": false
+    },
+	{
+        "link": {
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+          "attribute": "0201_Custom"
+        },
+        "name": "Интервал чтения сенсоров",
+        "type": "Integer",
+		"unit": "сек.",
+        "init": false,
+        "value": 20,
+        "minValue": 10,
+        "maxValue": 300,
+        "minStep": 1
+    },
+	{
+        "link": {
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+          "attribute": "0275_Custom"
+        },
+        "name": "Режим работы датчика по сконфигурированным отчетам",
+	    "description": "Отправка данных происходит в соответствии с настройками в разделе Уведомления",
+        "type": "Boolean",
+        "init": false,
+        "value": true
+    },
+	{
+        "link": {
+          "endpoint": 1,
+          "cluster": "0001_PowerConfiguration",
+          "attribute": "0205_Custom"
+        },
+        "name": "Сравнение данных с предыдущими, работы датчика в режиме по таймеру",
+	    "description": "Игнорирует настройки в разделе Уведомления и отправляет данные по пробуждению, сравнивая их с предыдущими, по порогам заданным в ПО (температура 0.25°C, влажность воздуха 0.5%)",
+        "type": "Boolean",
+        "init": false,
+        "value": false
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0402_TemperatureMeasurement",
+          "attribute": "0220_Enable"
+		},
+      "name": "Термостат",
+	  "description": "Активация режима работы датчика как термостата, нужна привязка к исполнительному устройсву по кластеру OnOff.",
+      "type": "Boolean",
+      "init": false,
+      "value": false
+    },
+	{
+        "link": {
+          "endpoint": 1,
+          "cluster": "0402_TemperatureMeasurement",
+          "attribute": "0225_Custom"
+          },
+        "name": "Термостат, Инвертирование",
+		"description": "Инвертирование логики работы, ...выключить, если выше верхнего уровня / ...включить, если выше верхнего уровня.",
+        "type": "Boolean",
+        "init": false,
+        "value": false
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0402_TemperatureMeasurement",
+        "attribute": "0221_high_temp"
+		},
+      "name": "Термостат, верхняя температура",
+      "type": "Integer",
+      "init": false,
+      "value": 1,
+      "minValue": 0,
+      "maxValue": 65,
+      "minStep": 1
+	},
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0402_TemperatureMeasurement",
+        "attribute": "0222_low_temp"
+		},
+      "name": "Термостат, нижняя температура",
+      "type": "Integer",
+      "init": false,
+      "value": 1,
+      "minValue": 0,
+      "maxValue": 65,
+      "minStep": 1
+	},
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0405_RelativeHumidityMeasurement",
+        "attribute": "0220_Enable"
+		},
+      "name": "Гигростат",
+	  "description": "Активация режима работы датчика как гигростата, нужна привязка к исполнительному устройсву по кластеру OnOff.",
+      "type": "Boolean",
+      "init": false,
+      "value": false
+    },
+	{
+        "link": {
+          "endpoint": 1,
+          "cluster": "0405_RelativeHumidityMeasurement",
+          "attribute": "0225_Custom"
+          },
+        "name": "Гигростат, Инвертирование",
+		"description": "Инвертирование логики работы, ...включить, если выше верхнего уровня / ...выключить, если выше верхнего уровня.",
+        "type": "Boolean",
+        "init": false,
+        "value": false
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0405_RelativeHumidityMeasurement",
+        "attribute": "0221_high_hum"
+		},
+      "name": "Гигростат, верхняя граница",
+      "type": "Integer",
+      "init": false,
+      "value": 1,
+      "minValue": 0,
+      "maxValue": 99
+	},
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0405_RelativeHumidityMeasurement",
+        "attribute": "0222_low_hum"
+		},
+      "name": "Гигростат, нижняя граница",
+      "type": "Integer",
+      "init": false,
+      "value": 1,
+      "minValue": 0,
+      "maxValue": 99
+	},
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0402_TemperatureMeasurement",
+        "output": true
+      },
+      "name": "Прямая передача данных о температуре воздуха на другое устройство",
+      "description": "Привязка к другому устройству по данным температуры воздуха, для прямой передачи данных на другое устройство.",
+      "type": "String",
+      "bind": true
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0405_RelativeHumidityMeasurement",
+        "output": true
+      },
+      "name": "Прямая передача данных о влажности воздуха на другое устройство",
+      "description": "Привязка к другому устройству по данным влажности воздуха, для прямой передачи данных на другое устройство.",
+      "type": "String",
+      "bind": true
+    },
+	{
+      "link": {
+        "endpoint": 1,
+        "cluster": "0006_OnOff",
+        "output": true
+      },
+      "name": "Прямая работа вкл/выкл",
+      "description": "Прямое управление исполнительным устройством (реле, розетки, выключатели).",
+      "type": "String",
+      "bind": true
+    }
+  ]
+}  
