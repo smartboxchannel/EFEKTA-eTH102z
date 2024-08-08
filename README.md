@@ -13,6 +13,8 @@ https://www.zigbee2mqtt.io/devices/EFEKTA_eTH102.html
 
 https://hackaday.com/2021/03/16/mini-hygrometer-packs-e-paper-display/
 
+https://www.youtube.com/watch?v=mZrILBuNh1k
+
 
 
 ![Mini Digital Thermometer & Hygrometer Zigbee](https://github.com/smartboxchannel/Mini-Digital-Thermometer-Hygrometer-Zigbee/blob/main/IMAGES/eON102z%20300.png) 
