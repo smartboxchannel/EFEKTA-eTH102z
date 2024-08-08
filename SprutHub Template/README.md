@@ -5,3 +5,7 @@ Sprut.hub Wiki | Добавление кастомных шаблонов - http
 Телеграм чат DIY Devices - https://t.me/diy_devices
 
 Продажа DIY Устройств - https://t.me/diydevmart
+
+Описание: 
+
+![EFEKTA AQ Smart Monitor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-AQ-Smart-Monitor/main/Images/001.png) 
