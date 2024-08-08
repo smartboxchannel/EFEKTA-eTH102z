@@ -7,7 +7,7 @@
 Продажа DIY Устройств - https://t.me/diydevmart
 
 
-More info at http://efektalab.com/eTHz
+### More info at http://efektalab.com/eTH102
 
 https://www.zigbee2mqtt.io/devices/EFEKTA_eTH102.html
 
