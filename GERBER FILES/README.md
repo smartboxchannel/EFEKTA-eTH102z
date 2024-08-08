@@ -5,4 +5,4 @@ base pcb 1.0mm | display pcb 0.8mm - https://www.pcbway.com/project/shareproject
 
 Video: https://youtu.be/Fae1yz_HcuA
 
-!!! It is forbidden to manufacture devices for commercial sale, only for personal use !!!
+### !!! It is forbidden to manufacture devices for commercial sale, only for personal use !!!
