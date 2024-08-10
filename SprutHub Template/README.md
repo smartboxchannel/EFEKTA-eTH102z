@@ -2,6 +2,8 @@
 
 Sprut.hub Wiki | Добавление кастомных шаблонов - https://clck.ru/362h5z
 
+для старых прошивок нужно заменить в шаблоне "manufacturerId": "efektalab.com", на "manufacturerId": "EfektaLab"
+
 Телеграм чат DIY Devices - https://t.me/diy_devices
 
 Продажа DIY Устройств - https://t.me/diydevmart
